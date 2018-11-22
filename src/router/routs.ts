@@ -4,6 +4,6 @@ function hello(req, res) {
   res.end(JSON.stringify({ message: "Hello there!!!" }));
 }
 
-module.exports = {
+export default {
   hello
 };
